@@ -5,3 +5,5 @@ removePathAccents: true
 params:
   breadcrumb:
     position: after-hero
+  logo:
+    footer: "/assets/images/logo-blanc.svg"
