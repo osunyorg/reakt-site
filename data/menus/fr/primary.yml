@@ -9,6 +9,10 @@ items:
     target: "/actualites/"
     kind: page
     children: []
+  - title: Prestations
+    target: "/prestations/"
+    kind: page
+    children: []
 - title: Piloter la durabilité
   target: "/"
   kind: page
