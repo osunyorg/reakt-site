@@ -9,8 +9,4 @@ items:
     target: "/actualites/"
     kind: page
     children: []
-- title: Piloter la durabilité
-  target: "/"
-  kind: page
-  children: []
 
