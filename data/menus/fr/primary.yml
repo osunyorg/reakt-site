@@ -17,4 +17,8 @@ items:
     target: "/prestations/transition-durable/"
     kind: page
     children: []
+- title: Acquisition Durable
+  target: "/prestations/acquisition-durable/"
+  kind: page
+  children: []
 
