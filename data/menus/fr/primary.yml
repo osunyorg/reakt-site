@@ -13,4 +13,8 @@ items:
     target: "/prestations/"
     kind: page
     children: []
+- title: Prestations
+  target: ''
+  kind: blank
+  children: []
 
