@@ -17,7 +17,7 @@ items:
     target: "/prestations/transition-durable/"
     kind: page
     children: []
-  - title: Acquisition Durable
+  - title: Pilotage de durabilité
     target: "/prestations/pilotage-durable/"
     kind: page
     children: []
