@@ -18,7 +18,7 @@ items:
     kind: page
     children: []
   - title: Acquisition Durable
-    target: "/prestations/acquisition-durable/"
+    target: "/prestations/pilotage-durable/"
     kind: page
     children: []
 
