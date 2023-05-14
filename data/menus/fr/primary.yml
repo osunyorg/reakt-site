@@ -12,5 +12,9 @@ items:
 - title: Prestations
   target: "/prestations/"
   kind: page
-  children: []
+  children:
+  - title: Transition Durable
+    target: "/prestations/transition-durable/"
+    kind: page
+    children: []
 
