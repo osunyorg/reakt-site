@@ -9,16 +9,4 @@ items:
     target: "/actualites/"
     kind: page
     children: []
-- title: Prestations
-  target: "/prestations/"
-  kind: page
-  children:
-  - title: Transition Durable
-    target: "/prestations/transition-durable/"
-    kind: page
-    children: []
-  - title: Pilotage de durabilité
-    target: "/prestations/pilotage-durable/"
-    kind: page
-    children: []
 
