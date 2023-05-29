@@ -1,4 +1,8 @@
 ---
 title: Social
-items: []
+items:
+- title: LinkedIn
+  target: https://www.linkedin.com/company/re-akt/
+  kind: url
+  children: []
 
