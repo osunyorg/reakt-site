@@ -41,6 +41,10 @@ items:
     target: "/axes-dactions/strategies/"
     kind: page
     children: []
+  - title: Qualité
+    target: "/axes-dactions/qualite/"
+    kind: page
+    children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
