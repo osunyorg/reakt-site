@@ -1,9 +1,9 @@
 ---
 title: Primary
 items:
-- title: A propos
-  target: ''
-  kind: blank
+- title: À propos
+  target: "/a-propos/"
+  kind: page
   children: []
 - title: Prestations
   target: ''
