@@ -5,12 +5,4 @@ items:
   target: https://www.linkedin.com/company/re-akt/
   kind: url
   children: []
-- title: email
-  target: mailto:nicolas@re-akt.ch
-  kind: url
-  children: []
-- title: "+41 79 370 47 37"
-  target: tel:+41793704737
-  kind: url
-  children: []
 
