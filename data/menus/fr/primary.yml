@@ -1,8 +1,4 @@
 ---
 title: Menu principal
-items:
-- title: À propos
-  target: "/a-propos/"
-  kind: page
-  children: []
+items: []
 
