@@ -21,34 +21,6 @@ items:
     target: "/prestations/expertise-construction-durable/"
     kind: page
     children: []
-- title: Axes d'actions
-  target: "/axes-dactions/"
-  kind: page
-  children:
-  - title: Sobriété
-    target: "/axes-dactions/sobriete/"
-    kind: page
-    children: []
-  - title: Efficacité
-    target: "/axes-dactions/efficacite/"
-    kind: page
-    children: []
-  - title: Ressources renouvelables
-    target: "/axes-dactions/ressources-renouvelables/"
-    kind: page
-    children: []
-  - title: Stratégies
-    target: "/axes-dactions/strategies/"
-    kind: page
-    children: []
-  - title: Qualité
-    target: "/axes-dactions/qualite/"
-    kind: page
-    children: []
-  - title: Innovation
-    target: "/axes-dactions/innovation/"
-    kind: page
-    children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
