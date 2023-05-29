@@ -9,3 +9,6 @@ params:
     position: hero
   logo:
     footer: "/assets/images/logo-blanc.svg"
+  pages:
+    index:
+      truncate_description: 0
