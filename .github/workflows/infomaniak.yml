@@ -34,7 +34,6 @@ jobs:
       - name: Build
         run: hugo -e production --minify
 
-      # https://blog.hajruli.ch/2020/05/hugo-infomaniak-githubactions/
       - name: SFTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
