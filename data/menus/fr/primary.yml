@@ -4,11 +4,7 @@ items:
 - title: A propos
   target: ''
   kind: blank
-  children:
-  - title: re-akt
-    target: "/a-propos/"
-    kind: page
-    children: []
+  children: []
 - title: Prestations
   target: ''
   kind: blank
