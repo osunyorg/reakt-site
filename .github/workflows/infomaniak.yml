@@ -36,9 +36,9 @@ jobs:
 
       # https://blog.hajruli.ch/2020/05/hugo-infomaniak-githubactions/
       - name: SFTP Deploy
-        uses: SamKirkland/FTP-Deploy-Action@3.0.0
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          ftp-server: ${{ secrets.FTP_HOSTNAME }}
-          ftp-username: ${{ secrets.FTP_USERNAME }}
-          ftp-password: ${{ secrets.FTP_PASSWORD }}
+          server: ${{ secrets.FTP_HOSTNAME }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ${{ secrets.FTP_LOCAL_DIR }}
