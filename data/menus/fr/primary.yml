@@ -21,12 +21,12 @@ items:
     target: "/prestations/expertise-construction-durable/"
     kind: page
     children: []
-- title: Actualités
-  target: "/actualites/"
-  kind: page
-  children: []
 - title: Axes d'actions
   target: "/axes-dactions/"
+  kind: page
+  children: []
+- title: Actualités
+  target: "/actualites/"
   kind: page
   children: []
 
