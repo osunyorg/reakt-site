@@ -29,6 +29,10 @@ items:
     target: "/axes-dactions/sobriete/"
     kind: page
     children: []
+  - title: Efficacité
+    target: "/axes-dactions/efficacite/"
+    kind: page
+    children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
