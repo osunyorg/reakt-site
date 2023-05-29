@@ -37,6 +37,10 @@ items:
     target: "/axes-dactions/ressources-renouvelables/"
     kind: page
     children: []
+  - title: Stratégies
+    target: "/axes-dactions/strategies/"
+    kind: page
+    children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
