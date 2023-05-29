@@ -45,6 +45,10 @@ items:
     target: "/axes-dactions/qualite/"
     kind: page
     children: []
+  - title: Innovation
+    target: "/axes-dactions/innovation/"
+    kind: page
+    children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
