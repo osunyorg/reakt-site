@@ -5,24 +5,4 @@ items:
   target: "/a-propos/"
   kind: page
   children: []
-- title: Prestations
-  target: ''
-  kind: blank
-  children:
-  - title: Transition Durable
-    target: "/prestations/transition-durable/"
-    kind: page
-    children: []
-  - title: Pilotage de durabilité
-    target: "/prestations/pilotage-durable/"
-    kind: page
-    children: []
-  - title: Expertise Construction Durable
-    target: "/prestations/expertise-construction-durable/"
-    kind: page
-    children: []
-- title: Actualités
-  target: "/actualites/"
-  kind: page
-  children: []
 
