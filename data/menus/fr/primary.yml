@@ -24,7 +24,11 @@ items:
 - title: Axes d'actions
   target: "/axes-dactions/"
   kind: page
-  children: []
+  children:
+  - title: Sobriété
+    target: "/axes-dactions/sobriete/"
+    kind: page
+    children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
