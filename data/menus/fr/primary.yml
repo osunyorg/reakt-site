@@ -25,4 +25,8 @@ items:
   target: "/actualites/"
   kind: page
   children: []
+- title: Axes d'actions
+  target: "/axes-dactions/"
+  kind: page
+  children: []
 
