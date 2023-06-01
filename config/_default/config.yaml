@@ -3,6 +3,7 @@ paginate: 18
 enableRobotsTXT: true
 removePathAccents: true
 params:
+  plausible: re-akt.ch
   breadcrumb:
     position: after-hero
   summary:
