@@ -1,4 +1,12 @@
 ---
 title: Menu principal
-items: []
+items:
+- title: Piloter la durabilité
+  target: "/"
+  kind: page
+  children: []
+- title: Actualités
+  target: "/actualites/"
+  kind: page
+  children: []
 
