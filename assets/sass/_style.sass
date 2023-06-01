@@ -47,3 +47,7 @@ body:not(.full-width)
     h3
         color: $color-accent
 
+.block:not(.block-call_to_action) h2
+    @include media-breakpoint-up(desktop)
+        @include in-page-without-sidebar
+            @include h2
