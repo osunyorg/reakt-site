@@ -51,3 +51,10 @@ body:not(.full-width)
     @include media-breakpoint-up(desktop)
         @include in-page-without-sidebar
             @include h2
+
+.toc-container
+    @include in-page-with-sidebar
+        .toc-title
+            display: none
+        .toc ol li:first-child
+            margin-top: 0
