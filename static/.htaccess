@@ -14,8 +14,8 @@ RewriteCond %{HTTP_HOST} ^re\-akt\.ch [NC]
 RewriteRule ^(.*)$ https://www.re-akt.ch/$1 [L,R=301]
 
 # = Rediriger un www au domaine racine (www.mon-domain.fr => mon-domaine.fr)
-RewriteCond %{HTTP_HOST} ^www.re\-akt\.ch [NC]
-RewriteRule ^(.*)$ https://www.re-akt.ch/$1 [L,R=301]
+# RewriteCond %{HTTP_HOST} ^www.re\-akt\.ch [NC]
+# RewriteRule ^(.*)$ https://re-akt.ch/$1 [L,R=301]
 
 # = Gérer les erreurs 404
 ErrorDocument 404 /404.html
