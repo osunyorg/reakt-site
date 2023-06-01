@@ -2,3 +2,33 @@ body:not(.full-width)
     .block-chapter
         figure
             max-width: none
+
+.hero--with-image 
+    .content 
+        > h1, > hgroup
+            margin-top: 0
+    @include media-breakpoint-up(desktop)
+        figure
+            width: calc(#{col(4)} + #{$grid-gutter}) !important
+            margin-right: -$grid-gutter
+            picture
+                position: relative
+                overflow: hidden
+                &::after
+                    content: ''
+                    position: absolute
+                    height: 150%
+                    width: 50%
+                    background: $hero-background-color
+                    bottom: 0
+                    right: 100%
+                    transform-origin: bottom left
+                    transform: rotate(10deg)
+
+            figcaption
+                &::before
+                    left: 0
+                    right: auto !important
+                p
+                    text-align: left !important
+                    padding-left: $spacing1 !important
