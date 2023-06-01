@@ -24,7 +24,6 @@ body:not(.full-width)
                     right: 100%
                     transform-origin: bottom left
                     transform: rotate(10deg)
-
             figcaption
                 &::before
                     left: 0
@@ -32,3 +31,17 @@ body:not(.full-width)
                 p
                     text-align: left !important
                     padding-left: $spacing1 !important
+
+
+
+.block-chapter
+    @include in-page-with-sidebar
+        &--alt_background
+            background: $block-chapter-layout-alt-background
+        // &--accent_background
+        //     background: $block-chapter-layout-accent-background
+        &--alt_background
+            .chapter .text
+                padding-left: 0
+                padding-right: 0
+
