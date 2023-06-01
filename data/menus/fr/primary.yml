@@ -9,4 +9,8 @@ items:
   target: "/actualites/"
   kind: page
   children: []
+- title: Qui sommes-nous ?
+  target: "/a-propos/"
+  kind: page
+  children: []
 
