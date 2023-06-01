@@ -1,5 +1,1 @@
-RewriteEngine On
-
-RewriteCond %{HTTPS} off [OR]
-	RewriteCond %{HTTP_HOST} ^re-akt\.ch [NC]
-RewriteRule (.*) https://www.re-akt.ch/$1 [L,R=301]
+RewriteEngine Off
