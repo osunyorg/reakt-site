@@ -43,11 +43,15 @@ body:not(.full-width)
                 padding-left: 0
                 padding-right: 0
 
-.toc ol .active
-    color: $color-orange
-// .block-features
-//     h3
-//         color: $color-accent
+.toc 
+    ol 
+        .active
+            color: $color-orange
+
+.block-definitions
+    details
+        summary
+            font-weight: bold
 
 .block:not(.block-call_to_action) h2
     @include media-breakpoint-up(desktop)
