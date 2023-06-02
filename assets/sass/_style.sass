@@ -36,13 +36,15 @@ body:not(.full-width)
     @include in-page-with-sidebar
         &--alt_background
             background: $block-chapter-layout-alt-background
-        // &--accent_background
-        //     background: $block-chapter-layout-accent-background
+        &--accent_background
+            background: $block-chapter-layout-accent-background
         &--alt_background
             .chapter .text
                 padding-left: 0
                 padding-right: 0
 
+.toc ol .active
+    color: $color-orange
 // .block-features
 //     h3
 //         color: $color-accent
