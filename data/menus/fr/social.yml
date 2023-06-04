@@ -9,7 +9,7 @@ items:
   target: https://www.ecoindex.fr/resultat/?id=e2cac3eb-87a1-4ac2-8ac5-633cceab3be9#score-details
   kind: url
   children: []
-- title: 1.34g de CO2e
+- title: afficher cette page génère 1.34g de CO2e
   target: ''
   kind: blank
   children: []
