@@ -5,12 +5,12 @@ items:
   target: https://www.linkedin.com/company/re-akt/
   kind: url
   children: []
-- title: EcoIndex A
-  target: https://www.ecoindex.fr/resultat/?id=e2cac3eb-87a1-4ac2-8ac5-633cceab3be9#score-details
-  kind: url
-  children: []
 - title: afficher cette page génère 1.34g de CO2e
   target: ''
   kind: blank
+  children: []
+- title: EcoIndex A
+  target: https://www.ecoindex.fr/resultat/?id=e2cac3eb-87a1-4ac2-8ac5-633cceab3be9#score-details
+  kind: url
   children: []
 
