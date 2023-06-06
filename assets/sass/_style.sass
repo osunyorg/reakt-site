@@ -3,6 +3,9 @@ body:not(.full-width)
         figure
             max-width: none
 
+@include media-breakpoint-up(desktop)
+    .hero
+        padding-bottom: 0
 .hero--with-image 
     .content 
         > h1, > hgroup
@@ -37,23 +40,36 @@ body:not(.full-width)
                     padding-left: $spacing1 !important
 
 .block-chapter
+    &--accent_background
+        *
+            color: black
     @include in-page-with-sidebar
-        backdrop-filter: blur(10px)
-        mix-blend-mode: multiply
         &--alt_background
             background: $block-chapter-layout-alt-background
         &--accent_background
             background: $block-chapter-layout-accent-background
         &--alt_background,
         &--accent_background
+            backdrop-filter: blur(10px)
+            mix-blend-mode: multiply
             .chapter .text
                 padding-left: 0
                 padding-right: 0
-
+.block-call_to_action
+    *
+        color: black
+    .call_to_action 
+        .actions 
+            a:not(:first-child)
+                color: black
+                text-decoration-color: rgba(0, 0, 0, 0.3)
+                &:hover
+                    text-decoration-color: black
+                    
 .toc 
     ol 
         .active
-            color: $color-orange
+            color: $color-blue
 
 .block-definitions
     details

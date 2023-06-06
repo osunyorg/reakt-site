@@ -5,7 +5,7 @@ removePathAccents: true
 params:
   plausible: re-akt.ch
   breadcrumb:
-    position: after-hero
+    position: hero-end
   summary:
     position: hero
   logo:
