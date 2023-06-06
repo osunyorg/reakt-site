@@ -38,11 +38,14 @@ body:not(.full-width)
 
 .block-chapter
     @include in-page-with-sidebar
+        backdrop-filter: blur(10px)
+        mix-blend-mode: multiply
         &--alt_background
             background: $block-chapter-layout-alt-background
         &--accent_background
             background: $block-chapter-layout-accent-background
-        &--alt_background
+        &--alt_background,
+        &--accent_background
             .chapter .text
                 padding-left: 0
                 padding-right: 0
@@ -68,3 +71,9 @@ body:not(.full-width)
             display: none
         .toc ol li:first-child
             margin-top: 0
+
+
+@include media-breakpoint-up(desktop)
+    .posts__page 
+        .post-sidebar 
+            z-index: 0
