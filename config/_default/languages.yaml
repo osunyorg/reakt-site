@@ -7,6 +7,6 @@ fr:
   languageName: Français
   permalinks:
     posts: /actualites/:year-:month-:day-:slug/
-    organizations: /nos-partenaires/:slug/
+    organizations: /reseau/:slug/
     persons: /equipe/:slug/
     authors: /equipe/:slug/actualites/
