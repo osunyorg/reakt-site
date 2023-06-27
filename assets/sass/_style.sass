@@ -39,6 +39,20 @@ body:not(.full-width)
                     text-align: left !important
                     padding-left: $spacing1 !important
 
+
+// Grands espaces verticaux sur les pages pleine largeur
+.blocks
+    @include in-page-without-sidebar
+        @include media-breakpoint-up(desktop)
+            .block-chapter,
+            .block-features
+                &.block-with-title
+                    padding-top: $spacing4
+            .block-chapter
+                &--alt_background,
+                &--accent_background
+                    padding-bottom: $spacing4
+
 .block-chapter
     &--accent_background
         *
@@ -79,10 +93,10 @@ body:not(.full-width)
         summary
             font-weight: bold
 
-.block:not(.block-call_to_action) h2
-    @include media-breakpoint-up(desktop)
-        @include in-page-without-sidebar
-            @include h2
+// .block:not(.block-call_to_action) h2
+//     @include media-breakpoint-up(desktop)
+//         @include in-page-without-sidebar
+//             @include h2
 
 .toc-container
     @include in-page-with-sidebar
