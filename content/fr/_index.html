@@ -32,23 +32,6 @@ description_short: >
 header_text: >-
   
 contents:
-  - kind: block
-    template: pages
-    title: >
-      Nos prestations
-    position: 4
-    data:
-      show_main_description: true
-      show_descriptions: true
-      show_images: true
-      layout: cards
-      pages:
-        - page: /prestations/transition-durable/
-          slug: /prestations/transition-durable/
-        - page: /prestations/expertise-construction-durable/
-          slug: /prestations/expertise-construction-durable/
-
-
   - kind: heading
     title: >-
       La construction suisse en quelques chiffres
@@ -590,6 +573,70 @@ contents:
 
 
 blocks:
+  - template: features
+    title: >-
+      
+    position: 1
+    data:
+      description: >-
+        
+
+
+      elements:
+        - title: >-
+            Fiabilité, efficacité
+
+
+          description: >-
+            Nous construisons la collaboration sur une communication transparente, en nous appuyant sur des données fiables et des processus digitaux.
+
+
+
+
+          alt: >-
+            
+
+
+          credit: >-
+            
+
+
+        - title: >-
+            Excellence, expertise
+
+
+          description: >-
+            Nous cherchons sans cesse l'excellence, nous renforçons notre savoir par la curiosité et notre efficacité par l'innovation.
+
+
+
+
+          alt: >-
+            
+
+
+          credit: >-
+            
+
+
+        - title: >-
+            Passion, engagement
+
+
+          description: >-
+            Nous valorisons les expertises et les expériences individuelles, nous stimulons l'intelligence collective qui les décuple.
+
+
+
+
+          alt: >-
+            
+
+
+          credit: >-
+            
+
+
   - template: chapter
     title: >-
       
@@ -684,46 +731,6 @@ blocks:
             
 
 
-  - template: key_figures
-    title: >-
-      La construction suisse en quelques chiffres
-    position: 1
-    data:
-      description: >-
-        
-
-
-      figures:
-        - number: 28
-
-          unit: >-
-            %
-
-
-          description: >-
-            des émissions de gaz à effet de serre sont générées par le domaine de la construction*
-
-
-        - number: 560
-
-          unit: >-
-            kg
-
-
-          description: >-
-            de déchets de construction sont produits chaque seconde**
-
-
-        - number: 0.65
-
-          unit: >-
-            m2
-
-
-          description: >-
-            de terrain est artificialisé chaque seconde***
-
-
   - template: chapter
     title: >-
       
@@ -772,145 +779,44 @@ blocks:
         
 
 
-  - template: features
+  - template: key_figures
     title: >-
-      
+      La construction suisse en quelques chiffres
     position: 1
     data:
       description: >-
         
 
 
-      elements:
-        - title: >-
-            Fiabilité, efficacité
+      figures:
+        - number: 28
+
+          unit: >-
+            %
 
 
           description: >-
-            Nous construisons la collaboration sur une communication transparente, en nous appuyant sur des données fiables et des processus digitaux.
+            des émissions de gaz à effet de serre sont générées par le domaine de la construction*
 
 
+        - number: 560
 
-
-          alt: >-
-            
-
-
-          credit: >-
-            
-
-
-        - title: >-
-            Excellence, expertise
+          unit: >-
+            kg
 
 
           description: >-
-            Nous cherchons sans cesse l'excellence, nous renforçons notre savoir par la curiosité et notre efficacité par l'innovation.
+            de déchets de construction sont produits chaque seconde**
 
 
+        - number: 0.65
 
-
-          alt: >-
-            
-
-
-          credit: >-
-            
-
-
-        - title: >-
-            Passion, engagement
+          unit: >-
+            m2
 
 
           description: >-
-            Nous valorisons les expertises et les expériences individuelles, nous stimulons l'intelligence collective qui les décuple.
-
-
-
-
-          alt: >-
-            
-
-
-          credit: >-
-            
-
-
-  - template: chapter
-    title: >-
-      
-    position: 2
-    data:
-      layout: no_background
-      text: >-
-        
-
-
-      notes: >-
-        <p>* selon EMPA, projet <a href="https://www.empa.ch/fr/web/s604/match" target="_blank">MatCH 2019</a><br>** en ne comptant que les déchets de démolition, soit 17M de tonnes en 2020 (selon le <a href="https://www.bafu.admin.ch/bafu/fr/home/documentation/rapports/rapport-environnement.html" target="_blank">Rapport sur l'Environnement 2022</a>)<br>*** entre 2009 et 2018, 182km2 ont été artificialisé, selon l'OFS (<a href="https://www.bfs.admin.ch/asset/fr/19365052" target="_blank">Utilisation du Sol en Suisse</a>)<br></p>
-
-
-
-
-      alt: >-
-        
-
-
-      credit: >-
-        
-
-
-  - template: call_to_action
-    title: >-
-      Contactez-nous
-    position: 2
-    data:
-      text: >-
-        <p>Entrez en contact avec nous, sur les réseaux sociaux, de vive voix ou par email!</p>
-
-
-
-
-      alt: >-
-        
-
-
-      credit: >-
-        
-
-
-      buttons:
-        - title: >-
-            Linkedin
-
-
-          url: >-
-            https://www.linkedin.com/company/re-akt/
-
-
-          target_blank: true
-
-
-        - title: >-
-            Email
-
-
-          url: >-
-            mailto:nicolas@re-akt.ch
-
-
-          target_blank: false
-
-
-        - title: >-
-            +41 79 370 47 37
-
-
-          url: >-
-            
-
-
-          target_blank: false
+            de terrain est artificialisé chaque seconde***
 
 
   - template: definitions
@@ -1067,20 +973,83 @@ blocks:
             - Promouvoir l'intelligence collective et l'innovation sociétale
 
 
-  - template: pages
+  - template: chapter
     title: >-
-      Nos prestations
-    position: 4
+      
+    position: 2
     data:
-      show_main_description: true
-      show_descriptions: true
-      show_images: true
-      layout: cards
-      pages:
-        - page: /prestations/transition-durable/
-          slug: /prestations/transition-durable/
-        - page: /prestations/expertise-construction-durable/
-          slug: /prestations/expertise-construction-durable/
+      layout: no_background
+      text: >-
+        
+
+
+      notes: >-
+        <p>* selon EMPA, projet <a href="https://www.empa.ch/fr/web/s604/match" target="_blank">MatCH 2019</a><br>** en ne comptant que les déchets de démolition, soit 17M de tonnes en 2020 (selon le <a href="https://www.bafu.admin.ch/bafu/fr/home/documentation/rapports/rapport-environnement.html" target="_blank">Rapport sur l'Environnement 2022</a>)<br>*** entre 2009 et 2018, 182km2 ont été artificialisé, selon l'OFS (<a href="https://www.bfs.admin.ch/asset/fr/19365052" target="_blank">Utilisation du Sol en Suisse</a>)<br></p>
+
+
+
+
+      alt: >-
+        
+
+
+      credit: >-
+        
+
+
+  - template: call_to_action
+    title: >-
+      Contactez-nous
+    position: 2
+    data:
+      text: >-
+        <p>Entrez en contact avec nous, sur les réseaux sociaux, de vive voix ou par email!</p>
+
+
+
+
+      alt: >-
+        
+
+
+      credit: >-
+        
+
+
+      buttons:
+        - title: >-
+            Linkedin
+
+
+          url: >-
+            https://www.linkedin.com/company/re-akt/
+
+
+          target_blank: true
+
+
+        - title: >-
+            Email
+
+
+          url: >-
+            mailto:nicolas@re-akt.ch
+
+
+          target_blank: false
+
+
+        - title: >-
+            +41 79 370 47 37
+
+
+          url: >-
+            
+
+
+          target_blank: false
+
+
 
 
 ---
