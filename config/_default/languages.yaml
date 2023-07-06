@@ -10,3 +10,4 @@ fr:
     posts: /actualites/:year-:month-:day-:slug/
     organizations: /reseau/:slug/
     persons: /equipe/:slug/
+    authors: /equipe/:slug/actualites/
