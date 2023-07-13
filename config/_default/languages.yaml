@@ -9,4 +9,4 @@ fr:
     categories: /actualites/:slug/
     posts: /actualites/:year-:month-:day-:slug/
     organizations: /reseau/:slug/
-    persons: /equipe/:slug/
+    persons: /collaborateurs/:slug/
