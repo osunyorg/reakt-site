@@ -49,8 +49,10 @@ body:not(.full-width)
             padding-bottom: $spacing3
     @include media-breakpoint-down(desktop)
         .block-chapter
-            padding-top: $spacing2
-            padding-bottom: $spacing2
+            &--alt_background,
+            &--accent_background
+                padding-top: $spacing2
+                padding-bottom: $spacing2
 
 .block-chapter
     &--accent_background
