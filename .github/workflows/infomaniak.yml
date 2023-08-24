@@ -1,4 +1,4 @@
-name: Infomaniak deployment
+name: infomaniak
 
 on:
   push:
