@@ -16,6 +16,7 @@ design:
     offcanvas: true
 
 position: 7
+weight: 7
 translation_key: communication-website-page-7e2c659b-1739-4c44-9c33-5db96951240e
 
 bodyclass: 
@@ -32,10 +33,14 @@ description_short: >
 
 header_text: >-
   
+contents_reading_time:
+  seconds: 13
+  text: >-
+    moins d'une minute
 contents:
   - kind: block
     template: chapter
-    title: >
+    title: >-
       
     position: 1
     data:
@@ -43,20 +48,15 @@ contents:
       text: >-
         <p>La construction comme la durabilité ne peuvent et ne doivent pas se faire seuls. Nous inscrivons notre action dans une vision d'échange, de partage d'expérience et de complémentarité.</p><p>Nous sommes heureux d'être membre des associations et groupements qui agissent en faveur d'une construction durable.<br></p>
 
-
       notes: >-
         
-
-
 
 
       alt: >-
         
 
-
       credit: >-
         
-
 
 
 
@@ -66,50 +66,7 @@ contents:
     position: 0
     level: 2
   - kind: block
-    template: partners
-    title: >
-      
-    position: 2
-    data:
-      layout: grid
-      description: >-
-        
-
-
-      with_link: true
-
-      partners:
-        - slug: "architectes-pour-le-climat"
-        - slug: "nnbs"
-
-
-
-blocks:
-  - template: chapter
-    title: >-
-      
-    position: 1
-    data:
-      layout: no_background
-      text: >-
-        <p>La construction comme la durabilité ne peuvent et ne doivent pas se faire seuls. Nous inscrivons notre action dans une vision d'échange, de partage d'expérience et de complémentarité.</p><p>Nous sommes heureux d'être membre des associations et groupements qui agissent en faveur d'une construction durable.<br></p>
-
-
-      notes: >-
-        
-
-
-
-
-      alt: >-
-        
-
-
-      credit: >-
-        
-
-
-  - template: partners
+    template: organizations
     title: >-
       
     position: 2
@@ -118,12 +75,29 @@ blocks:
       description: >-
         
 
-
       with_link: true
-
-      partners:
+      organizations:
         - slug: "architectes-pour-le-climat"
         - slug: "nnbs"
+      elements:
+        - title: >-
+            
+          kind: "osuny"
+          slug: "architectes-pour-le-climat"
+          url: "/reseau/architectes-pour-le-climat/"
+          logo:
+            light_background:
+              id: "45f76d57-4d7b-4d7c-86fa-de2a34f72ac3"
+        - title: >-
+            
+          kind: "osuny"
+          slug: "nnbs"
+          url: "/reseau/nnbs/"
+          logo:
+            light_background:
+              id: "2fbeb87f-a4a7-4656-837a-d51a3b39f121"
+
+
 
 
 ---

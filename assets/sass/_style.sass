@@ -43,12 +43,16 @@ body:not(.full-width)
 // Grands espaces verticaux sur les pages pleine largeur
 .blocks
     @include in-page-without-sidebar
-        @include media-breakpoint-up(desktop)
-            .block-chapter,
-            .block-features
-                &.block-with-title
-                    padding-top: $spacing3
-                    padding-bottom: $spacing3
+        .block-chapter,
+        .block-features
+            padding-top: $spacing3
+            padding-bottom: $spacing3
+    @include media-breakpoint-down(desktop)
+        .block-chapter
+            &--alt_background,
+            &--accent_background
+                padding-top: $spacing2
+                padding-bottom: $spacing2
 
 .block-chapter
     &--accent_background
@@ -64,8 +68,6 @@ body:not(.full-width)
             backdrop-filter: blur(10px)
             mix-blend-mode: multiply
             .chapter
-                padding-top: $spacing3
-                padding-bottom: $spacing3
                 .text
                     padding-left: 0
                     padding-right: 0
