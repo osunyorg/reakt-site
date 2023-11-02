@@ -13,6 +13,10 @@ items:
     target: "/prestations/pilotage-durable/"
     kind: page
     children: []
+  - title: Expertise en Construction Durable
+    target: "/prestations/expertise-construction-durable/"
+    kind: page
+    children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
