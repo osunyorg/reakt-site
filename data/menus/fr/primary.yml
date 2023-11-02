@@ -4,11 +4,11 @@ items:
 - title: Piloter la durabilité
   target: "/"
   kind: page
-  children: []
-- title: Transition Durable
-  target: "/prestations/transition-durable/"
-  kind: page
-  children: []
+  children:
+  - title: Transition Durable
+    target: "/prestations/transition-durable/"
+    kind: page
+    children: []
 - title: Actualités
   target: "/actualites/"
   kind: page
