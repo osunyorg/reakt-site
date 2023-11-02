@@ -1,9 +1,9 @@
 ---
 title: Menu principal
 items:
-- title: Piloter la durabilité
-  target: "/"
-  kind: page
+- title: Nos actions
+  target: ''
+  kind: blank
   children:
   - title: Transition Durable
     target: "/prestations/transition-durable/"
