@@ -6,6 +6,7 @@ body:not(.full-width)
 @include media-breakpoint-up(desktop)
     .hero
         padding-bottom: 0
+
 .hero--with-image 
     .content 
         > h1, > hgroup
@@ -39,21 +40,6 @@ body:not(.full-width)
                     text-align: left !important
                     padding-left: $spacing1 !important
 
-
-// Grands espaces verticaux sur les pages pleine largeur
-.blocks
-    @include in-page-without-sidebar
-        .block-chapter,
-        .block-features
-            padding-top: $spacing3
-            padding-bottom: $spacing3
-    @include media-breakpoint-down(desktop)
-        .block-chapter
-            &--alt_background,
-            &--accent_background
-                padding-top: $spacing2
-                padding-bottom: $spacing2
-
 .block-chapter
     &--accent_background
         *
@@ -71,6 +57,7 @@ body:not(.full-width)
                 .text
                     padding-left: 0
                     padding-right: 0
+
 .block-call_to_action
     *
         color: black
@@ -81,7 +68,7 @@ body:not(.full-width)
                 text-decoration-color: rgba(0, 0, 0, 0.3)
                 &:hover
                     text-decoration-color: black
-                    
+
 .toc 
     ol 
         .active
@@ -92,32 +79,12 @@ body:not(.full-width)
         summary
             font-weight: bold
 
-// .block:not(.block-call_to_action) h2
-//     @include media-breakpoint-up(desktop)
-//         @include in-page-without-sidebar
-//             @include h2
-
 .toc-container
     @include in-page-with-sidebar
         .toc-title
             display: none
         .toc ol li:first-child
             margin-top: 0
-
-
-.rich-text 
-    h1, 
-    h2, 
-    h3, 
-    h4, 
-    h5, 
-    h6, 
-    p, 
-    ul
-        margin-top: 1rem
-
-.heading:not(:first-child)
-    margin-top: 8rem
 
 @include media-breakpoint-up(desktop)
     .posts__page 
