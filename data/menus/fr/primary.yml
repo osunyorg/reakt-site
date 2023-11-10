@@ -5,7 +5,7 @@ items:
   target: ''
   kind: blank
   children:
-  - title: Transition Durable
+  - title: Transition durable
     target: "/prestations/transition-durable/"
     kind: page
     children: []
