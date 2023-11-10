@@ -13,7 +13,7 @@ items:
     target: "/prestations/pilotage-durable/"
     kind: page
     children: []
-  - title: Expertise en Construction Durable
+  - title: Expertise Durable
     target: "/prestations/expertise-construction-durable/"
     kind: page
     children: []
