@@ -53,13 +53,14 @@ contents:
     title: >-
       De quoi parle-t-on?
     position: 0
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       
     position: 0
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: alt_background
       text: >-
@@ -82,7 +83,8 @@ contents:
     title: >-
       
     position: 1
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -105,7 +107,8 @@ contents:
     title: >-
       
     position: 2
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: accent_background
       text: >-
@@ -128,13 +131,14 @@ contents:
     title: >-
       ré-agir
     position: 1
-    level: 2
+    rank: 2
   - kind: block
     template: chapter
     title: >-
       
     position: 0
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -157,7 +161,8 @@ contents:
     title: >-
       
     position: 1
-    heading_level: 3
+    ranks:
+      self: false
     data:
       layout: no_background
       text: >-
@@ -180,7 +185,9 @@ contents:
     title: >-
       
     position: 2
-    heading_level: 3
+    ranks:
+      self: false
+      children: 3
     data:
       page: 
         path: "/axes-dactions/"
