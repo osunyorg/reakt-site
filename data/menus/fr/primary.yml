@@ -9,7 +9,7 @@ items:
     target: "/prestations/transition-durable/"
     kind: page
     children: []
-  - title: Pilotage de Durabilité
+  - title: Pilotage de durabilité
     target: "/prestations/pilotage-durable/"
     kind: page
     children: []
