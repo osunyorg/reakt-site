@@ -8,4 +8,5 @@ allowed_domains:
   - "plausible.io"
   - "www.re-akt.ch"
   - "www.linkedin.com"
+  - "e.infogram.com"
   - "infogram.com"
