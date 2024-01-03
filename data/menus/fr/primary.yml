@@ -17,12 +17,12 @@ items:
     target: "/prestations/expertise-construction-durable/"
     kind: page
     children: []
-- title: Actualités
-  target: "/actualites/"
-  kind: page
-  children: []
 - title: Notre réseau
   target: "/reseau/"
+  kind: page
+  children: []
+- title: Actualités
+  target: "/actualites/"
   kind: page
   children: []
 
