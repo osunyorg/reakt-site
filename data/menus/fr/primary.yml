@@ -21,4 +21,8 @@ items:
   target: "/actualites/"
   kind: page
   children: []
+- title: Notre réseau
+  target: "/reseau/"
+  kind: page
+  children: []
 
