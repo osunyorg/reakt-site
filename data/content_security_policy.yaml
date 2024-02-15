@@ -7,7 +7,6 @@ allowed_domains:
   - "tile.openstreetmap.org"
   - "plausible.io"
   - "www.re-akt.ch"
-  - "datawrapper.dwcdn.net"
   - "www.linkedin.com"
   - "e.infogram.com"
   - "infogram.com"
