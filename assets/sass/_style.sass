@@ -9,12 +9,12 @@ body:not(.full-width)
 
 .hero--with-image 
     .content 
-        > h1, > hgroup
+        .hero-text
             margin-top: 0
     @include media-breakpoint-up(desktop)
         figure
-            width: calc(#{col(4)} + #{$grid-gutter}) !important
-            margin-right: -$grid-gutter
+            width: calc(#{columns(4)} + var(--grid-gutter)) !important
+            margin-right: var(--grid-gutter-negative)
             picture
                 position: relative
                 overflow: hidden
@@ -38,7 +38,7 @@ body:not(.full-width)
                     right: auto !important
                 p
                     text-align: left !important
-                    padding-left: $spacing1 !important
+                    padding-left: $spacing-3 !important
 
 .block-chapter
     &--accent_background
