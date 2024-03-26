@@ -1,6 +1,7 @@
 ---
 name: NPI_vcard.vcf
 size: 389
+format: square
 url: https://reakt.osuny.org/media/eyJfcmFpbHMiOnsiZGF0YSI6IjMzNzIyNmQyLWMyYTAtNDdhOC04ZTY3LTM0NmNjYjI4NGIxYiIsInB1ciI6ImJsb2JfaWQifX0=--02ab3940d6b486e9a674b3f48baa68e6060dd2c2/NPI_vcard.vcf
 direct_url: https://osuny.s3.fr-par.scw.cloud/dh1jyept5bw03803mgyyxsxs07oc
 
