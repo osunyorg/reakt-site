@@ -7,38 +7,41 @@ body:not(.full-width)
     .hero
         padding-bottom: 0
 
-.hero--with-image 
+.hero--with-image
     .content 
         .hero-text
             margin-top: 0
-    @include media-breakpoint-up(desktop)
-        figure
-            width: calc(#{columns(4)} + var(--grid-gutter)) !important
-            margin-right: var(--grid-gutter-negative)
-            picture
-                position: relative
-                overflow: hidden
-                aspect-ratio: 16/9
-                img
-                    height: 100% !important
-                    object-fit: cover
-                &::after
-                    content: ''
-                    position: absolute
-                    height: 150%
-                    width: 50%
-                    background: $hero-background-color
-                    bottom: 0
-                    right: 100%
-                    transform-origin: bottom left
-                    transform: rotate(10deg)
-            figcaption
-                &::before
-                    left: 0
-                    right: auto !important
-                p
-                    text-align: left !important
-                    padding-left: $spacing-3 !important
+
+body:not(.persons__page)
+    .hero--with-image
+        @include media-breakpoint-up(desktop)
+            figure
+                width: calc(#{columns(4)} + var(--grid-gutter)) !important
+                margin-right: var(--grid-gutter-negative)
+                picture
+                    position: relative
+                    overflow: hidden
+                    aspect-ratio: 16/9
+                    img
+                        height: 100% !important
+                        object-fit: cover
+                    &::after
+                        content: ''
+                        position: absolute
+                        height: 150%
+                        width: 50%
+                        background: $hero-background-color
+                        bottom: 0
+                        right: 100%
+                        transform-origin: bottom left
+                        transform: rotate(10deg)
+                figcaption
+                    &::before
+                        left: 0
+                        right: auto !important
+                    p
+                        text-align: left !important
+                        padding-left: $spacing-3 !important
 
 .block-chapter
     &--accent_background
