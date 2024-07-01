@@ -385,15 +385,32 @@ contents:
   - kind: block
     template: pages
     title: >-
-      
+      Nos prestations
     ranks:
-      self: false
+      self: 3
+      children: 4
     data:
-      show_main_description: false
-      show_descriptions: false
+      page: 
+        path: "/prestations/"
+        slug: "prestations"
+        file: "pages/prestations/_index.html"
+      show_main_description: true
+      show_descriptions: true
       show_images: false
-      layout: grid
+      layout: list
       pages:
+        - path: "/prestations/transition-durable/"
+          slug: "transition-durable"
+          file: "pages/prestations/transition-durable/_index.html"
+          external: false
+        - path: "/prestations/pilotage-durabilite/"
+          slug: "pilotage-durabilite"
+          file: "pages/prestations/pilotage-durabilite/_index.html"
+          external: false
+        - path: "/prestations/expertise-construction-durable/"
+          slug: "expertise-construction-durable"
+          file: "pages/prestations/expertise-construction-durable/_index.html"
+          external: false
 
 
 
