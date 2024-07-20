@@ -1,6 +1,10 @@
 ---
 title: Menu principal
 items:
+- title: Qui sommes-nous ?
+  target: "/qui-sommes-nous/"
+  kind: page
+  children: []
 - title: Notre action
   target: ''
   kind: blank
@@ -23,10 +27,6 @@ items:
   children: []
 - title: Actualités
   target: "/actualites/"
-  kind: page
-  children: []
-- title: Qui sommes-nous ?
-  target: "/qui-sommes-nous/"
   kind: page
   children: []
 
