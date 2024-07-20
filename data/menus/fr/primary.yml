@@ -25,4 +25,8 @@ items:
   target: "/actualites/"
   kind: page
   children: []
+- title: Qui sommes-nous ?
+  target: "/qui-sommes-nous/"
+  kind: page
+  children: []
 
