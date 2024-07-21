@@ -2,7 +2,7 @@
 title: Menu principal
 items:
 - title: Qui sommes-nous ?
-  target: "/nos-engagements/"
+  target: "/qui-sommes-nous/"
   kind: page
   children: []
 - title: Notre action
