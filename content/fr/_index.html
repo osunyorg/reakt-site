@@ -166,15 +166,11 @@ contents:
   - kind: block
     template: pages
     title: >-
-      Qui sommes-nous ?
+      
     ranks:
-      self: 2
-      children: 3
+      self: false
+      children: 2
     data:
-      page: 
-        path: "/qui-sommes-nous/"
-        slug: "qui-sommes-nous"
-        file: "pages/qui-sommes-nous/_index.html"
       show_main_description: false
       show_descriptions: false
       show_images: false
@@ -185,6 +181,10 @@ contents:
 
       layout: list
       pages:
+        - path: "/qui-sommes-nous/"
+          slug: "qui-sommes-nous"
+          file: "pages/qui-sommes-nous/_index.html"
+          external: false
         - path: "/qui-sommes-nous/politique-durabilite/"
           slug: "politique-durabilite"
           file: "pages/qui-sommes-nous/politique-durabilite/_index.html"
