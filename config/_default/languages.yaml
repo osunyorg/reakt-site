@@ -8,9 +8,13 @@ fr:
   languageName: Français
   params:
     social:
+      linkedin: >-
+        https://www.linkedin.com/company/re-akt
   permalinks:
     posts: /actualites/:year-:month-:day-:slug/
     posts_categories: /actualites/:slug/
+    projects: /projets/:year-:slug/
+    projects_categories: /projets/:slug/
     organizations: /reseau/:slug/
     organizations_categories: /reseau/categories/:slug/
     persons: /equipe/:slug/
