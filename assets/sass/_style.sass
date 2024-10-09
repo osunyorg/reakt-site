@@ -12,6 +12,14 @@ body:not(.full-width)
         .hero-text
             margin-top: 0
 
+.page-home
+    .toc-cta
+        display: none !important
+    .block-chapter
+        .notes
+            margin-top: 0
+    h2
+        @include h5
 body.persons__page
     .hero--with-image
         figure
@@ -65,7 +73,13 @@ body:not(.persons__page)
                 .text
                     padding-left: 0
                     padding-right: 0
-
+.block
+    &-pages
+        &--list.block-titled
+            background: $color-background-alt
+            .container
+                padding-bottom: $spacing-6
+                padding-top: $spacing-6
 .block-call_to_action
     *
         color: black
