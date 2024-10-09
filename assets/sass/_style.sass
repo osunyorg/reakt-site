@@ -3,10 +3,6 @@ body:not(.full-width)
         figure
             max-width: none
 
-@include media-breakpoint-up(desktop)
-    .hero
-        padding-bottom: 0
-
 .hero--with-image
     .content 
         .hero-text
@@ -76,30 +72,31 @@ body:not(.persons__page)
 .block
     &-pages
         &--list.block-titled
-            background: $color-background-alt
+            background: $color-blue
+            *
+                color: $color-background
             .container
                 padding-bottom: $spacing-6
                 padding-top: $spacing-6
-.block-call_to_action
-    *
-        color: black
-    .call_to_action 
-        .actions 
-            a:not(:first-child)
-                color: black
-                text-decoration-color: rgba(0, 0, 0, 0.3)
-                &:hover
-                    text-decoration-color: black
-
+    &-call_to_action
+        *
+            color: black
+        .call_to_action 
+            .actions 
+                a:not(:first-child)
+                    color: black
+                    text-decoration-color: rgba(0, 0, 0, 0.3)
+                    &:hover
+                        text-decoration-color: black
+    &-definitions
+        details
+            summary
+                font-weight: bold
 .toc 
     ol 
         .active
             color: $color-blue
 
-.block-definitions
-    details
-        summary
-            font-weight: bold
 
 .toc-container
     @include in-page-with-sidebar
@@ -109,6 +106,8 @@ body:not(.persons__page)
             margin-top: 0
 
 @include media-breakpoint-up(desktop)
+    .hero
+        padding-bottom: 0
     .posts__page 
         .post-sidebar 
             z-index: 0
