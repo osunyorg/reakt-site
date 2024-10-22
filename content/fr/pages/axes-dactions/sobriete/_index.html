@@ -64,15 +64,23 @@ contents_reading_time:
   text: >-
     1 minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       De quoi parle-t-on?
-    slug: "de-quoi-parle-t-on"
-    position: 1
-    rank: 2
+    slug: >-
+      de-quoi-parle-t-on
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -97,6 +105,8 @@ contents:
     template: chapter
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
     data:
@@ -120,6 +130,8 @@ contents:
     template: chapter
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
     data:
@@ -139,16 +151,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       re-agir
-    slug: "re-agir"
-    position: 2
-    rank: 2
+    slug: >-
+      re-agir
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -173,6 +192,8 @@ contents:
     template: testimonials
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
     data:
@@ -192,10 +213,12 @@ contents:
   - kind: block
     template: pages
     title: >-
-      Axes d'actions
+      
+    slug: >-
+      
     ranks:
-      self: 3
-      children: 4
+      self: false
+      children: 3
     data:
       page:
         path: "/axes-dactions/"
@@ -232,7 +255,6 @@ contents:
           slug: "innovation"
           file: "pages/axes-dactions/innovation/_index.html"
           external: false
-
 
 
 
