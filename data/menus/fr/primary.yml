@@ -5,6 +5,7 @@ items:
   target: "/qui-sommes-nous/"
   kind: page
   children: []
+  file: content/fr/pages/qui-sommes-nous/_index.html
 - title: Notre action
   target: ''
   kind: blank
@@ -13,20 +14,25 @@ items:
     target: "/prestations/transition-durable/"
     kind: page
     children: []
+    file: content/fr/pages/prestations/transition-durable/_index.html
   - title: Pilotage de durabilité
     target: "/prestations/pilotage-durabilite/"
     kind: page
     children: []
+    file: content/fr/pages/prestations/pilotage-durabilite/_index.html
   - title: Expertise en durabilité
     target: "/prestations/expertise-construction-durable/"
     kind: page
     children: []
+    file: content/fr/pages/prestations/expertise-construction-durable/_index.html
 - title: Notre réseau
   target: "/reseau/"
   kind: page
   children: []
+  file: content/fr/organizations/_index.html
 - title: Actualités
   target: "/actualites/"
   kind: page
   children: []
+  file: content/fr/posts/_index.html
 
