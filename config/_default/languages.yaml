@@ -7,9 +7,14 @@ fr:
   languageCode: fr
   languageName: Français
   params:
-    social:
-      linkedin: >-
-        https://www.linkedin.com/company/re-akt
+    contact_details:
+      social_networks:
+        linkedin:
+          label: >-
+            re-akt
+          value: >-
+            https://www.linkedin.com/company/re-akt
+
   permalinks:
     projects: /projets/:year-:slug/
     projects_categories: /projets/:slug/
