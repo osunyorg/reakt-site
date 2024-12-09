@@ -12,8 +12,8 @@ lastmod: 2024-10-09T15:20:41+02:00
 meta:
   hugo:
     permalink: "/test-home/"
+    path: "/pages/test-home"
     file: "content/fr/pages/test-home/_index.html"
-    path: "test-home"
     slug: "test-home"
   dates:
     created_at: 2024-10-09T14:01:02+02:00
@@ -190,18 +190,19 @@ contents:
 
       layout: list
       pages:
-        - path: "/qui-sommes-nous/"
+        - permalink: "/qui-sommes-nous/"
+          path: "/pages/qui-sommes-nous"
           slug: "qui-sommes-nous"
-          file: "pages/qui-sommes-nous/_index.html"
-          external: false
-        - path: "/qui-sommes-nous/politique-durabilite/"
+          file: "content/fr/pages/qui-sommes-nous/_index.html"
+        - permalink: "/qui-sommes-nous/politique-durabilite/"
+          path: "/pages/qui-sommes-nous/politique-durabilite"
           slug: "politique-durabilite"
-          file: "pages/qui-sommes-nous/politique-durabilite/_index.html"
-          external: false
-        - path: "/qui-sommes-nous/politique-qualite/"
+          file: "content/fr/pages/qui-sommes-nous/politique-durabilite/_index.html"
+        - permalink: "/qui-sommes-nous/politique-qualite/"
+          path: "/pages/qui-sommes-nous/politique-qualite"
           slug: "politique-qualite"
-          file: "pages/qui-sommes-nous/politique-qualite/_index.html"
-          external: false
+          file: "content/fr/pages/qui-sommes-nous/politique-qualite/_index.html"
+
 
 
   - kind: block
@@ -215,9 +216,10 @@ contents:
       children: 3
     data:
       page:
-        path: "/axes-dactions/"
+        permalink: "/axes-dactions/"
+        path: "/pages/axes-dactions"
         slug: "axes-dactions"
-        file: "pages/axes-dactions/_index.html"
+        file: "content/fr/pages/axes-dactions/_index.html"
       options:
         image: false
         main_summary: true
@@ -225,30 +227,31 @@ contents:
 
       layout: list
       pages:
-        - path: "/axes-dactions/sobriete/"
+        - permalink: "/axes-dactions/sobriete/"
+          path: "/pages/axes-dactions/sobriete"
           slug: "sobriete"
-          file: "pages/axes-dactions/sobriete/_index.html"
-          external: false
-        - path: "/axes-dactions/efficacite/"
+          file: "content/fr/pages/axes-dactions/sobriete/_index.html"
+        - permalink: "/axes-dactions/efficacite/"
+          path: "/pages/axes-dactions/efficacite"
           slug: "efficacite"
-          file: "pages/axes-dactions/efficacite/_index.html"
-          external: false
-        - path: "/axes-dactions/ressources-durables/"
+          file: "content/fr/pages/axes-dactions/efficacite/_index.html"
+        - permalink: "/axes-dactions/ressources-durables/"
+          path: "/pages/axes-dactions/ressources-durables"
           slug: "ressources-durables"
-          file: "pages/axes-dactions/ressources-durables/_index.html"
-          external: false
-        - path: "/axes-dactions/strategie/"
+          file: "content/fr/pages/axes-dactions/ressources-durables/_index.html"
+        - permalink: "/axes-dactions/strategie/"
+          path: "/pages/axes-dactions/strategie"
           slug: "strategie"
-          file: "pages/axes-dactions/strategie/_index.html"
-          external: false
-        - path: "/axes-dactions/qualite/"
+          file: "content/fr/pages/axes-dactions/strategie/_index.html"
+        - permalink: "/axes-dactions/qualite/"
+          path: "/pages/axes-dactions/qualite"
           slug: "qualite"
-          file: "pages/axes-dactions/qualite/_index.html"
-          external: false
-        - path: "/axes-dactions/innovation/"
+          file: "content/fr/pages/axes-dactions/qualite/_index.html"
+        - permalink: "/axes-dactions/innovation/"
+          path: "/pages/axes-dactions/innovation"
           slug: "innovation"
-          file: "pages/axes-dactions/innovation/_index.html"
-          external: false
+          file: "content/fr/pages/axes-dactions/innovation/_index.html"
+
 
 
   - kind: block
@@ -305,18 +308,19 @@ contents:
 
       layout: grid
       pages:
-        - path: "/prestations/transition-durable/"
+        - permalink: "/prestations/transition-durable/"
+          path: "/pages/prestations/transition-durable"
           slug: "transition-durable"
-          file: "pages/prestations/transition-durable/_index.html"
-          external: false
-        - path: "/prestations/pilotage-durabilite/"
+          file: "content/fr/pages/prestations/transition-durable/_index.html"
+        - permalink: "/prestations/pilotage-durabilite/"
+          path: "/pages/prestations/pilotage-durabilite"
           slug: "pilotage-durabilite"
-          file: "pages/prestations/pilotage-durabilite/_index.html"
-          external: false
-        - path: "/prestations/expertise-construction-durable/"
+          file: "content/fr/pages/prestations/pilotage-durabilite/_index.html"
+        - permalink: "/prestations/expertise-construction-durable/"
+          path: "/pages/prestations/expertise-construction-durable"
           slug: "expertise-construction-durable"
-          file: "pages/prestations/expertise-construction-durable/_index.html"
-          external: false
+          file: "content/fr/pages/prestations/expertise-construction-durable/_index.html"
+
 
 
   - kind: block
@@ -350,11 +354,17 @@ contents:
         link: true
 
       persons:
-        - slug: "mathieu-farine"
+        - permalink: "/equipe/mathieu-farine/"
+          path: "/persons/mathieu-farine"
+          slug: "mathieu-farine"
+          file: "content/fr/persons/mathieu-farine.html"
           role: >-
             Associé, Ingénieur Civil EPFL
 
-        - slug: "nicolas-pierret"
+        - permalink: "/equipe/nicolas-pierret/"
+          path: "/persons/nicolas-pierret"
+          slug: "nicolas-pierret"
+          file: "content/fr/persons/nicolas-pierret.html"
           role: >-
             Associé, Architecte EPFL
 
