@@ -40,6 +40,12 @@ taxonomies:
   - name: "Offre de formation"
     slug: "offre-de-formation"
     categories:
+free_categories:
+  - permalink: "/actualites/construction/"
+    path: "/posts_categories/construction"
+    slug: "construction"
+    file: "content/fr/posts_categories/construction/_index.html"
+    name: "Construction"
 
 translationKey: communication-website-post-a6e80a60-752f-4a73-80d7-9a8ffd3f9af5
 
@@ -222,17 +228,15 @@ contents:
       description: >-
         <p>Un petit chantier, donné en exemple dans l'article, engendre un déplacement de 5800 tonnes, soit <b>232 trajets de camions pleins</b> (25t).</p><p>L'outil <i>Mobitool</i> nous donne dans ces conditions une émission de 60g.CO2e/tkm pour le déplacement, soit une pollution de presque<b> 0.2t par trajet aller</b>.<br>Donc pour 5800 tonnes sur 130km, on a la bagatelle de <b>45t de CO2 émises</b>!</p><p>A l'échelle du canton, pour 2020, un tel déplacement aurait représenté presque 25'000t de CO2!<br>Sans compter l'effet rebond, qui sous entend que les déchets locaux français pourraient avoir la même distance à parcourir du fait de la compétition pour les carrières françaises, pouvant ainsi théoriquement doubler l'impact de CO2e</p>
 
-      columns: ["paramétre", "valeur", "unité"]
-
+      columns:
+        - "paramétre"
+        - "valeur"
+        - "unité"
       rows:
-        - ["quantité de terre", "5800", "t"]
-
-        - ["distance aller", "130", "km"]
-
-        - ["charge utile", "25", "t"]
-
-        - ["émissions", "60", "g.CO2e/tkm"]
-
+        - ["quantité de terre","5800","t"]
+        - ["distance aller","130","km"]
+        - ["charge utile","25","t"]
+        - ["émissions","60","g.CO2e/tkm"]
       caption: >-
         
 
