@@ -4,13 +4,16 @@ items:
 - title: re-akt sur LinkedIn
   target: https://www.linkedin.com/company/re-akt/
   kind: url
+  new_tab: true
   children: []
 - title: afficher cette page génère 1.34g de CO2e
   target: ''
   kind: blank
+  new_tab: false
   children: []
 - title: EcoIndex A
   target: https://www.ecoindex.fr/resultat/?id=f794ac2c-1f40-47b5-ae5b-c8b34d0b44d8
   kind: url
+  new_tab: true
   children: []
 

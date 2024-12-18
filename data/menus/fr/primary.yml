@@ -4,40 +4,47 @@ items:
 - title: Qui sommes-nous ?
   target: "/qui-sommes-nous/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/qui-sommes-nous"
   file: content/fr/pages/qui-sommes-nous/_index.html
 - title: Notre action
   target: ''
   kind: blank
+  new_tab: false
   children:
   - title: Transition durable
     target: "/prestations/transition-durable/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/prestations/transition-durable"
     file: content/fr/pages/prestations/transition-durable/_index.html
   - title: Pilotage de durabilité
     target: "/prestations/pilotage-durabilite/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/prestations/pilotage-durabilite"
     file: content/fr/pages/prestations/pilotage-durabilite/_index.html
   - title: Expertise en durabilité
     target: "/prestations/expertise-construction-durable/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/prestations/expertise-construction-durable"
     file: content/fr/pages/prestations/expertise-construction-durable/_index.html
 - title: Notre réseau
   target: "/reseau/"
   kind: page
+  new_tab: false
   children: []
   path: "/organizations"
   file: content/fr/organizations/_index.html
 - title: Actualités
   target: "/actualites/"
   kind: page
+  new_tab: false
   children: []
   path: "/posts"
   file: content/fr/posts/_index.html
