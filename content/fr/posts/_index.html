@@ -6,7 +6,7 @@ title: >-
 url: "/actualites/"
 slug: "actualites"
 date: 2023-06-02T13:23:31+02:00
-lastmod: 2024-09-29T12:11:06+02:00
+lastmod: 2025-02-11T12:18:28+01:00
 meta:
   hugo:
     permalink: "/actualites/"
@@ -15,7 +15,7 @@ meta:
     slug: "actualites"
   dates:
     created_at: 2023-01-08T16:10:22+01:00
-    updated_at: 2024-09-29T12:11:06+02:00
+    updated_at: 2025-02-11T12:18:28+01:00
     published_at: 2023-06-02T13:23:31+02:00
 
 breadcrumbs:
@@ -91,7 +91,7 @@ section_taxonomies:
 
 
 contents_reading_time:
-  seconds: 2
+  seconds: 1
   text: >-
     moins d'une minute
 contents:
@@ -242,34 +242,59 @@ contents:
 
 
   - kind: block
-    template: posts
+    template: categories
     title: >-
-      Tous les articles
+      
     slug: >-
-      tous-les-articles
+      
     ranks:
       base: 2
-      self: 2
     top:
-      active: true
-      title: 
-        value: >-
-          Tous les articles
-        heading: 2
+      active: false
     data:
-      mode: categories
       layout: grid
+      description: >-
+        
+
       options:
-        author: true
-        categories: true
-        date: true
+        count: true
         image: true
-        reading_time: false
-        subtitle: true
         summary: true
 
-      posts:
+      category_kind: posts
+      taxonomy_id: 
 
+      categories:
+        - permalink: "/actualites/construction/"
+          path: "/posts_categories/construction"
+          slug: "construction"
+          file: "content/fr/posts_categories/construction/_index.html"
+          name: ""
+          count: 7
+        - permalink: "/actualites/climat/"
+          path: "/posts_categories/climat"
+          slug: "climat"
+          file: "content/fr/posts_categories/climat/_index.html"
+          name: ""
+          count: 2
+        - permalink: "/actualites/re-akt/"
+          path: "/posts_categories/re-akt"
+          slug: "re-akt"
+          file: "content/fr/posts_categories/re-akt/_index.html"
+          name: ""
+          count: 3
+        - permalink: "/actualites/suisse/"
+          path: "/posts_categories/suisse"
+          slug: "suisse"
+          file: "content/fr/posts_categories/suisse/_index.html"
+          name: ""
+          count: 3
+        - permalink: "/actualites/futur/"
+          path: "/posts_categories/futur"
+          slug: "futur"
+          file: "content/fr/posts_categories/futur/_index.html"
+          name: ""
+          count: 5
 
 
 
