@@ -2,6 +2,11 @@
 
 baseURL: https://www.re-akt.ch
 
+## OSUNY
+osuny:
+  website:
+    id: cab98b0b-5bca-4a1c-bd31-c3828934b80e
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
