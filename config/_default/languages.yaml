@@ -9,6 +9,12 @@ fr:
   buildFuture: true
   params:
     contact_details:
+      emails:
+        email:
+          label: >-
+            info@re-akt.ch
+          value: >-
+            mailto:info@re-akt.ch
       social_networks:
         linkedin:
           label: >-
