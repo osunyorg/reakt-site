@@ -1,14 +1,19 @@
 ---
 title: Social
 items:
-- title: afficher cette page génère 1.34g de CO2e
-  target: ''
-  kind: blank
-  new_tab: false
-  children: []
 - title: EcoIndex A
   target: https://www.ecoindex.fr/resultat/?id=f794ac2c-1f40-47b5-ae5b-c8b34d0b44d8
   kind: url
   new_tab: true
-  children: []
+  children:
+  - title: afficher cette page émet 1.38g de CO2e
+    target: ''
+    kind: blank
+    new_tab: false
+    children: []
+  - title: afficher cette page consomme 2.07cl d'eau
+    target: ''
+    kind: blank
+    new_tab: false
+    children: []
 
