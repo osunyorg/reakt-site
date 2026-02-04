@@ -8,6 +8,13 @@ items:
   children: []
   path: "/pages/qui-sommes-nous"
   file: content/fr/pages/qui-sommes-nous/_index.html
+- title: Notre équipe
+  target: "/equipe/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/persons"
+  file: content/fr/persons/_index.html
 - title: Notre action
   target: ''
   kind: blank
