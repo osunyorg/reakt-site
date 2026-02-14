@@ -2,57 +2,76 @@
 title: Menu principal
 items:
 - title: Qui sommes-nous ?
+  slug: qui-sommes-nous
   target: "/qui-sommes-nous/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/qui-sommes-nous"
   file: content/fr/pages/qui-sommes-nous/_index.html
 - title: Notre équipe
+  slug: notre-equipe
   target: "/equipe/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/persons"
   file: content/fr/persons/_index.html
 - title: Notre action
+  slug: notre-action
   target: ''
   kind: blank
   new_tab: false
   children:
   - title: Transition durable
+    slug: transition-durable
     target: "/prestations/transition-durable/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/prestations/transition-durable"
     file: content/fr/pages/prestations/transition-durable/_index.html
   - title: Pilotage de durabilité
+    slug: pilotage-de-durabilite
     target: "/prestations/pilotage-durabilite/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/prestations/pilotage-durabilite"
     file: content/fr/pages/prestations/pilotage-durabilite/_index.html
   - title: Expertise en durabilité
+    slug: expertise-en-durabilite
     target: "/prestations/expertise-construction-durable/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/prestations/expertise-construction-durable"
     file: content/fr/pages/prestations/expertise-construction-durable/_index.html
+  descendants_targets:
+  - "/prestations/expertise-construction-durable/"
+  - "/prestations/pilotage-durabilite/"
+  - "/prestations/transition-durable/"
 - title: Notre réseau
+  slug: notre-reseau
   target: "/reseau/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/organizations"
   file: content/fr/organizations/_index.html
 - title: Actualités
+  slug: actualites
   target: "/actualites/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/posts"
   file: content/fr/posts/_index.html
 

@@ -2,8 +2,10 @@
 title: Social
 items:
 - title: EcoIndex A
+  slug: ecoindex-a
   target: https://www.ecoindex.fr/resultat/?id=f794ac2c-1f40-47b5-ae5b-c8b34d0b44d8
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 

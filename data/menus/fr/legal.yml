@@ -2,31 +2,39 @@
 title: Legal
 items:
 - title: Mentions légales
+  slug: mentions-legales
   target: "/mentions-legales/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/mentions-legales"
   file: content/fr/pages/mentions-legales/_index.html
 - title: Politique de confidentialité
+  slug: politique-de-confidentialite
   target: "/politique-de-confidentialite/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/politique-de-confidentialite"
   file: content/fr/pages/politique-de-confidentialite/_index.html
 - title: Accessibilité
+  slug: accessibilite
   target: "/accessibilite/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/accessibilite"
   file: content/fr/pages/accessibilite/_index.html
 - title: Plan du site
+  slug: plan-du-site
   target: "/pds/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/pds"
   file: content/fr/pages/pds/_index.html
 
