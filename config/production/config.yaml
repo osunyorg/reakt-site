@@ -7,6 +7,11 @@ osuny:
   website:
     id: cab98b0b-5bca-4a1c-bd31-c3828934b80e
 
+## PARAMS
+params:
+  _merge: deep
+  plausible: "re-akt.ch"
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
