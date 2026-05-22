@@ -1,47 +1,7 @@
 default:
 contents_reading_time:
-  seconds: 3
+  seconds: 0
   text: >-
     moins d'une minute
 contents:
-  - kind: block
-    template: contact
-
-
-    ranks:
-      base: 2
-      children: 2
-    top:
-      active: false
-
-    data:
-
-      name: >-
-        re-akt Sàrl
-
-      contact_details:
-        postal_address:
-          data:
-
-            address: >-
-              Avenue de la Gare 33
-
-            zipcode: >-
-              1003
-            city: >-
-              Lausanne
-          text: >-
-            Avenue de la Gare 33 1003 Lausanne
-          html: >-
-            <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">Avenue de la Gare 33</span> <span itemprop="postalCode">1003</span> <span itemprop="addressLocality">Lausanne</span></address>
-        emails:
-          list:
-            - label: >-
-                info@re-akt.ch
-              value: >-
-                mailto:info@re-akt.ch
-
-      timetable:
-
-
 
