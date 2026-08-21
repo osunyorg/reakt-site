@@ -19,8 +19,8 @@ items:
   descendants_targets: []
   path: "/persons"
   file: content/fr/persons/_index.html
-- title: Notre action
-  slug: notre-action
+- title: Nos prestations
+  slug: nos-prestations
   target: ''
   kind: blank
   new_tab: false
