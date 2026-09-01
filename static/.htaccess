@@ -50,6 +50,7 @@ RedirectMatch permanent "^/a\-propos/axes\-dactions/qualite(/?)$" "/axes-daction
 RedirectMatch permanent "^/reseau/associations(/?)$" "/reseau/categories/associations/"
 RedirectMatch permanent "^/qui\-sommes\-nous/qualite(/?)$" "/axes-dactions/qualite/"
 RedirectMatch permanent "^/prestations/pilotage\-durable(/?)$" "/prestations/pilotage-durabilite/"
+RedirectMatch permanent "^/fichiers/2026(/?)$" "/fichiers/2026/re-fichececbpdf/"
 RedirectMatch permanent "^/a\-propos/axes\-dactions/efficacite(/?)$" "/axes-dactions/efficacite/"
 RedirectMatch permanent "^/nos\-engagements/politique\-durabilite(/?)$" "/qui-sommes-nous/politique-durabilite/"
 RedirectMatch permanent "^/reseau/categories/parternaires(/?)$" "/reseau/categories/partenaires/"
