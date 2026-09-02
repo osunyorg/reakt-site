@@ -6,6 +6,7 @@ allowed_domains:
   - "osuny.s3.fr-par.scw.cloud"
   - "tile.openstreetmap.org"
   - "plausible.io"
+  - "tally.so"
   - "www.linkedin.com"
   - "www.letemps.ch"
   - "e.infogram.com"
